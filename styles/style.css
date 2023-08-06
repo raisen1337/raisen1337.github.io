@@ -73,8 +73,9 @@ iframe {
 
 .user-avatar {
     width: 10%;
-    border-radius: 50%;
-    margin-top: -3rem;
+    clip-path: circle();
+    margin-top: -6rem;
+    margin-bottm: -6rem
     box-shadow: 0px 0px 15px 0px rgba(2, 2, 2, 1);
 }
 
